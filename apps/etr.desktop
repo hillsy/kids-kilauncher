@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Extreme Tux Racer
+GenericName=Arcade Game
+Comment=Race a penguin down a mountain
+Icon=/home/lauchlan/.kilauncher/apps/icons/tuxracer.png
+
+Exec=etr
+Terminal=false
+StartupNotify=false
+
+Categories=Game;ArcadeGame;
+Keywords=game;tux;3D;pinguin;race;arcade;
