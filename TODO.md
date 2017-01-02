@@ -1,0 +1,2 @@
+- [ ] Un-hardcode home directory location for CSS & icon files
+- [ ] A README in case anyone else ever wants to use this
