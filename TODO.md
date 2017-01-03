@@ -1,6 +1,7 @@
-- [ ] Move everything into /etc
+- [x] Move everything into /etc
 - [x] A README in case anyone else ever wants to use this
 - [ ] Local apps directory
 - [ ] Local wallpaper directory
 - [ ] Flash games
 - [ ] DOS games
+- [x] Key combination to drop out of KiLauncher to a terminal

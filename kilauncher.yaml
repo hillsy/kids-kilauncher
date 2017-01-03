@@ -5,7 +5,9 @@ aggressive_icon_search: True
 
 stylesheet: "/etc/kilauncher/stylesheet.css"
 
-show_quit_button: True
+# Don't really need (or want) this if KiLauncher's started as part of a session
+# but it might be handy for debugging sometimes
+#show_quit_button: True
 
 ## Tabs & launchers
 
