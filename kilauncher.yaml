@@ -9,7 +9,5 @@ show_quit_button: True
 tabs_and_launchers:
 
   1:
-    description: "All applications"
-    icon_size: 48x48
-    desktop_path: "/usr/share/applications"
-    categories: ["game, education"]
+    desktop_path: "/usr/share/applications/*.desktop"
+    categories: ["Game", "Education"]
