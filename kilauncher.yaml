@@ -1,71 +1,15 @@
-# kilauncher.yaml
-# This is a sample configuration file for KiLauncher.py
-# Edit it to fit your needs.
+## Global config
 
-########################
-# Global Configuration #
-########################
-
-# These values affect the whole application
-
-# Stylesheet
-# Change this to use a custom stylesheet, or change the location of your stylesheet
-# Default: /etc/kilauncher/stylesheet.css
-
-stylesheet: "/home/lauchlan/.kilauncher/stylesheet.css"
-
-# Icon Theme
-# Change the icon theme used for launcher icons when only an icon name (not path) is specified
-# Probably only works in Linux, according to QT documentation
-# Default: whatever your qt is configured to use
-
-icon_theme: "Tango"
-
-# Show Quit Button
-# If you need people to be able to exit the program, set this to true
-# Default: false
+stylesheet: "/etc/kilauncher/stylesheet.css"
 
 show_quit_button: True
 
-# You can also set the text of the quit button
-# It defaults to "X"
-
-#quit_button_text: "Quit this program"
-
-# Turning on aggressive icon search can help find icons for badly configured .desktop files.
-# It also vastly increases start time, especially on slow systems.
-# Default: False
-
-#aggressive_icon_search: True
-
-
-# The "autostart" feature lets you specify some commands to run whenever KiLauncher is launched.
-# This could be useful if you want to run a window manager or panel, for instance.
-
-#autostart: ["openbox", "xeyes", "xterm -e htop"]
-
-######################
-# Tabs and Launchers #
-######################
-
-# This nested structure defines tabs and the launchers contained within
-# NOTE that this config may not work on your system if you don't have these programs installed.
+## Tabs & launchers
 
 tabs_and_launchers:
 
   1:
-    name: "Programs"
-    # Note the absence of the hyphen.  This is a property of the tab itself, not part of a launchers array.
-    # Also note the use of the wildcard character in the name.  That's allowed.
-    # keep in mind, you have no control over the ordering if you go this route.
-    desktop_path: "/home/lauchlan/.kilauncher/apps/*.desktop"
-
-    # Tabs can also specify
-    #  - the maximum number of launchers in a row,
-    #  - the size of the launchers
-    #  - the size of the icons on the launcher
-    # By default, launchers are 240x80, and the number is determined by the screen size.
-    # Default size of icons is 64x64
-#    launchers_per_row: 3
-#    launcher_size: 360x120
-#    icon_size: 96x72
+    description: "All applications"
+    icon_size: 48x48
+    desktop_path: "/usr/share/applications"
+    categories: ["game, education"]
