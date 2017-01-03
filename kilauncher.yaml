@@ -1,5 +1,8 @@
 ## Global config
 
+# slows startup a bit
+aggressive_icon_search: True
+
 stylesheet: "/etc/kilauncher/stylesheet.css"
 
 show_quit_button: True
