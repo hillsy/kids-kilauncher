@@ -1,2 +1,6 @@
-- [ ] Un-hardcode home directory location for CSS & icon files
-- [ ] A README in case anyone else ever wants to use this
+- [ ] Move everything into /etc
+- [x] A README in case anyone else ever wants to use this
+- [ ] Local apps directory
+- [ ] Local wallpaper directory
+- [ ] Flash games
+- [ ] DOS games
