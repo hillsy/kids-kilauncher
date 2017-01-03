@@ -45,7 +45,7 @@
                   }
 
 /* LauncherPane styles the background for the scrollable area where the launchers live  */
-#LauncherPane { background-color: #EDEDED; background-image: url("/etc/kilauncher/img/tractor_field.jpg"); border-color: #BEDB89; }
+#LauncherPane { background-color: #EDEDED; background-image: url("/etc/kilauncher/img/beach.png"); border-color: #BEDB89; }
 
 /* LaunchButton styles the actual buttons for the launchers.  :hover and :pressed style the buttons when hovered or pressed, respectively  */
 #LaunchButton {  background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 white, stop:1 #ECF3E3); border: 2px groove #BEDB89; border-radius: 10px; opacity: .5}
